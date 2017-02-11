@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  height: 100px;
+  background: url('https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/900/360/75/wdpromedia.disney.go.com/media/wdpro-assets/parks-and-tickets/attractions/hollywood-studios/star-wars/star-wars-25-full.jpg?18052016114129') no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 4px 2px gray;
+}
+
+.main {
+  max-width: 800px;
+  margin: auto;
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.keyPeeps {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  border: 10px solid #f40727;
+  padding: 10px;
+  margin: 15px 0px;
+}
+
+.peepText {
+  display: inline-block;
+}
+
+.headShot {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  display: inline-block;
+}
+
+.headShot img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 5px;
+}
+
+
+
+
+
+
+
+.footer {
+  height: 100px;
+  background: url('http://screenrant.com/wp-content/uploads/star-wars-force-awakens-8-filming.jpg') no-repeat;
+  background-size: cover;
+  background-position: top;
+}
