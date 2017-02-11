@@ -17,6 +17,23 @@ body {
 .main {
   max-width: 800px;
   margin: auto;
+  background: #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.searchBar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 10px 0px 10px 0px;
+}
+
+.searching {
+  padding: 10px;
+  width: 300px;
 }
 
 .people {
@@ -30,8 +47,10 @@ body {
   width: 300px;
   height: 150px;
   border: 10px solid #f40727;
+  border-radius: 5px;
   padding: 10px;
   margin: 15px 0px;
+  background: white;
 }
 
 .peepText {
@@ -46,7 +65,7 @@ body {
 }
 
 .headShot img {
-  object-fit: contain;
+  object-fit: cover;
   width: 100px;
   height: 100px;
 }

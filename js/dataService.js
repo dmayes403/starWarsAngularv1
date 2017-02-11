@@ -275,4 +275,6 @@ angular.module('myApp').service('srvc', function(){
   this.getData =function(){
     return data;
   }
+
+  
 })

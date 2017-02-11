@@ -11,8 +11,13 @@
     <header class="header">
     </header>
     <main class="main">
+      <div class="searchBar">
+        <input class="searching" id="searchEyeColor" placeholder="What is your eye color?" ng-model="yourEyeColor">
+        <button class="searching" id="yourSearch" ng-click="checkEyes(yourEyeColor)">Search</button>
+      </div>
       <section class="people">
-        <div class="keyPeeps" ng-repeat="peep in newData">
+        <h3 class="twin" ng-show="twin">You look identical to your good friend: </h3>
+        <div class="keyPeeps" ng-repeat="peep in newData | filter: yourEyeColor">
           <div class="peepText">
             <h3>{{peep.name}}</h3>
             <p>Height: {{peep.height}}</p>
