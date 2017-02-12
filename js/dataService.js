@@ -271,10 +271,16 @@ angular.module('myApp').service('srvc', function(){
         }
   ]
 
+// END OF DATA ARRAY //
+
+  this.subscribers = [];
+
+
+
 
   this.getData =function(){
     return data;
   }
 
-  
+
 })

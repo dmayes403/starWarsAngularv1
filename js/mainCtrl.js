@@ -10,4 +10,13 @@ angular.module('myApp')
         // $scope.twin = true;
         return $scope.eyes;
       }
+
+      $scope.pushSubscriber = function(firstName, lastName){
+        $scope.newUser = {
+          'firstName': firstName,
+          'lastName': lastName
+        }
+        srvc.subscribers.push($scope.newUser);
+        console.log(srvc.subscribers);
+      }
 })
