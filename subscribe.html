@@ -22,7 +22,8 @@
         </select>
         <input class="subscriberInput" id="state" placeholder="State" ng-model="state"></input>
         <input class="subscriberInput" id="zipCode" placeholder="Zip Code" ng-model="zipCode"></input>
-        <button class="subscriberButton" id="subscriberButton" ng-click="pushSubscriber(firstName, lastName)">Subscribe</button>
+        <button class="subscriberButton" id="subscriberButton" ng-click="pushSubscriber(firstName, lastName, age)">Subscribe</button>
+        <button class="subscriberButton" id="unSubscriberButton" ng-click="pushUnSubscriber(firstName, lastName, age)">Unsubscribe</button>
       </section>
     </main>
     <footer class="footer">
